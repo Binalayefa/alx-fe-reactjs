@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bina Ikete - Personal Portfolio</title>
 </head>
-<body>
-    <header>
-        <h1>Bina Ikete</h1>
-        <p>Passionate about web development and making an impact in the tech world!</p>
+<header>
+<h1>Bina Ikete</h1>
+<p>Passionate about web development and making an impact in the tech world!</p>
     </header>
-
-    
     <nav>
         <ul>
             <li><a href="#introduction">Introduction</a></li>
@@ -21,11 +19,13 @@
         </ul>
     </nav>
 
+    <!-- Introduction Section -->
     <section id="introduction">
         <h2>Introduction</h2>
         <p>Hello! I'm Bina Ikete, a passionate web developer with a focus on front-end technologies. I aim to create intuitive and responsive websites that enhance user experience.</p>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
         
@@ -41,20 +41,23 @@
             <a href="https://github.com/your-repository" target="_blank">View Project</a>
         </article>
 
+        <!-- Add more projects as necessary -->
     </section>
 
+    <!-- About Me Section -->
     <section id="about">
         <h2>About Me</h2>
         <p>I have a background in Human Resource Management and am currently transitioning into the field of web development. I have a passion for technology, problem-solving, and creating user-friendly experiences.</p>
         <ul>
             <li>Skills: HTML, CSS, JavaScript, React</li>
-            <li>Hobbies: Reading, listening to music, swimming, Traveling, Research</li>
+            <li>Hobbies: Reading, Traveling, Research</li>
         </ul>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact</h2>
-        <p>You can reach me via email at <a href="mailto:binaziki@gmail.com">binaziki@gmail.com</a></p>
+        <p>You can reach me via email at <a href="mailto:binaikete@example.com">binaikete@example.com</a></p>
         <p>Also, feel free to check out my profiles:</p>
         <ul>
             <li><a href="https://www.linkedin.com/in/binaikete" target="_blank">LinkedIn</a></li>
@@ -62,6 +65,7 @@
         </ul>
     </section>
 
+    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Bina Ikete</p>
     </footer>

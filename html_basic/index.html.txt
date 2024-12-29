@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bina Ikete - Personal Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Bina Ikete</h1>
+        <p>Passionate about web development and making an impact in the tech world!</p>
+    </header>
+
+    
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! I'm Bina Ikete, a passionate web developer with a focus on front-end technologies. I aim to create intuitive and responsive websites that enhance user experience.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <article class="project">
+            <h3>Project 1: Personal Portfolio</h3>
+            <p>This is the project you're currently looking at. It showcases my web development skills.</p>
+            <a href="https://github.com/your-repository" target="_blank">View Project</a>
+        </article>
+
+        <article class="project">
+            <h3>Project 2: Task Manager App</h3>
+            <p>A web application that allows users to manage their daily tasks and to-do lists.</p>
+            <a href="https://github.com/your-repository" target="_blank">View Project</a>
+        </article>
+
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I have a background in Human Resource Management and am currently transitioning into the field of web development. I have a passion for technology, problem-solving, and creating user-friendly experiences.</p>
+        <ul>
+            <li>Skills: HTML, CSS, JavaScript, React</li>
+            <li>Hobbies: Reading, listening to music, swimming, Traveling, Research</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>You can reach me via email at <a href="mailto:binaziki@gmail.com">binaziki@gmail.com</a></p>
+        <p>Also, feel free to check out my profiles:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/binaikete" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/binaikete" target="_blank">GitHub</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bina Ikete</p>
+    </footer>
+</body>
+</html>

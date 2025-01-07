@@ -1,0 +1,151 @@
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define CSS Variables */
+:root {
+    --primary-color: rgb(101, 114, 121);
+    --font-color: #333;
+    --background-color: #f5faf9;
+    --max-width: 1000px;
+    --font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* General Styles */
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: var(--font-family);
+}
+
+/* Container Styles */
+.container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Section Content Styling */
+.hero-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: var(--font-color);
+    margin-bottom: 30px;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 0;
+    background-color: var(--background-color);
+    margin-bottom: 20px;
+}
+
+section h1 {
+    color: var(--primary-color); /* Corrected color variable */
+    font-size: 2rem;
+}
+
+section p {
+    font-size: 1.5rem;
+    color: royalblue;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 20px;
+}
+
+form input,
+form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
+
+
+
+.hero-content h1 {
+    color: red; /* Test with a simple color */
+    font-size: 2rem;
+}
+
+.hero-content p {
+    color: blue;
+    font-size: 1.2rem;
+}
+
+
+.logo-img {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevent inline styling issues */
+    margin: 0 auto; /* Center the image */
+}
+

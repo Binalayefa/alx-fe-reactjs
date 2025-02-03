@@ -1,8 +1,7 @@
-// Ensure script runs after the DOM is fully loaded
 document.addEventListener("DOMContentLoaded", () => {
-    // Initial quotes data
+    // Quotes array
     let quotes = [
-        { text: "The only limit to our realization of tomorrow is our doubts of today.", category: "Motivation" },
+        { text: "Success is not final, failure is not fatal: it is the courage to continue that counts.", category: "Motivation" },
         { text: "Do what you can, with what you have, where you are.", category: "Inspiration" },
         { text: "Believe you can and you're halfway there.", category: "Confidence" }
     ];
@@ -12,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const newQuoteButton = document.getElementById("newQuote");
     const newQuoteText = document.getElementById("newQuoteText");
     const newQuoteCategory = document.getElementById("newQuoteCategory");
-    const addQuoteBtn = document.getElementById("addQuoteBtn");
+    const addQuoteBtn = document.getElementById("addQuote");
 
     // Function to show a random quote
     function showRandomQuote() {
@@ -35,10 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Add new quote to the array
         quotes.push({ text: quoteText, category: quoteCategory });
 
-        // Clear input fields
         newQuoteText.value = "";
         newQuoteCategory.value = "";
 

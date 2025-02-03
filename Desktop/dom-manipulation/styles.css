@@ -1,36 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 20px;
+    margin: 50px;
 }
 
 #quoteDisplay {
-    font-size: 1.2em;
-    font-style: italic;
+    font-size: 1.5em;
     margin: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: #f9f9f9;
 }
 
 button {
-    padding: 10px 15px;
+    padding: 10px;
     margin: 10px;
+    font-size: 1em;
     cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-input {
-    padding: 8px;
-    margin: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
 }

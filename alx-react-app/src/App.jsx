@@ -1,3 +1,4 @@
+import UserProfile from "./components/UserProfile";
 import { useState } from 'react'
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
@@ -12,11 +13,13 @@ function App() {
 
   return (
     <>
+
       {/* Grouping all content inside one parent div */}
       <div>
         <Header />
         <MainContent />
         <WelcomeMessage /> {/* No need for extra div */}
+        <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
         <Footer />
       </div>
 

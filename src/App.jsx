@@ -19,7 +19,7 @@ function App() {
         <Header />
         <MainContent />
         <WelcomeMessage />
-        <ProfilePage />  {/* Remove props - data comes from context */}
+        <ProfilePage />  {/* No props needed */}
         <Footer />
       </div>
 
@@ -51,3 +51,4 @@ function App() {
 }
 
 export default App;
+

@@ -1,10 +1,11 @@
 
+
 import { createContext, useState } from "react";
 
-// Create the Context
+// Create UserContext
 export const UserContext = createContext();
 
-// Create the Provider Component
+// Create Provider Component
 export function UserProvider({ children }) {
   const [user, setUser] = useState({
     name: "Alice",

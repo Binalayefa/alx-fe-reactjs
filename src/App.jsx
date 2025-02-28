@@ -1,28 +1,28 @@
+
+import { UserProvider } from "./UserContext";  // Import UserProvider
 import ProfilePage from "./components/ProfilePage";
-import { useState } from 'react';
+import { useState } from "react";
 import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
-import WelcomeMessage from './components/WelcomeMessage';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import WelcomeMessage from "./components/WelcomeMessage";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
-function App() {  // ✅ Function definition must be here
+function App() {
   const [count, setCount] = useState(0);
 
-  return (  // ✅ Return is inside the function
-    <>
-      {/* Grouping all content inside one parent div */}
+  return (
+    <UserProvider>  {/* Wrap the entire app with UserProvider */}
       <div>
         <Header />
         <MainContent />
         <WelcomeMessage />
-        <ProfilePage name="Alice" age="25" bio="Loves hiking and photography" />
+        <ProfilePage />  {/* Remove props - data comes from context */}
         <Footer />
       </div>
 
-      {/* Vite and React logos section */}
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -34,7 +34,6 @@ function App() {  // ✅ Function definition must be here
 
       <h1>Vite + React</h1>
 
-      {/* Counter button section */}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -47,14 +46,8 @@ function App() {  // ✅ Function definition must be here
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
+    </UserProvider>
   );
 }
 
-// ✅ Ensure export is after the function, not before return
 export default App;
-
-
-
-
-

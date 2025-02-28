@@ -1,5 +1,3 @@
-
-import { UserProvider } from "./UserContext";  // Import UserProvider
 import ProfilePage from "./components/ProfilePage";
 import { useState } from "react";
 import Header from "./components/Header";
@@ -14,12 +12,12 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <UserProvider>  {/* Wrap the entire app with UserProvider */}
+    <>
       <div>
         <Header />
         <MainContent />
         <WelcomeMessage />
-        <ProfilePage />  {/* No props needed */}
+        <ProfilePage />  {/* No props passed */}
         <Footer />
       </div>
 
@@ -46,9 +44,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </UserProvider>
+    </>
   );
 }
 
 export default App;
-

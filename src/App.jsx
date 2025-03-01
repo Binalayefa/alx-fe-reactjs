@@ -17,7 +17,7 @@ function App() {
         <Header />
         <MainContent />
         <WelcomeMessage />
-        <ProfilePage />  {/* No props passed */}
+        <ProfilePage />  {/* ✅ No props passed */}
         <Footer />
       </div>
 
@@ -49,3 +49,6 @@ function App() {
 }
 
 export default App;
+
+
+

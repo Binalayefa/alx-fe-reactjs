@@ -1,10 +1,8 @@
 
-
-import UserProfile from "./UserProfile";  // Import UserProfile component
+import UserProfile from "./UserProfile";  // ✅ Import UserProfile
 
 function ProfilePage() {
-  return <UserProfile />;  // Render UserProfile component
+  return <UserProfile />;  // ✅ Render UserProfile
 }
 
 export default ProfilePage;
-

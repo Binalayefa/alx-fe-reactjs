@@ -1,9 +1,9 @@
 import { createContext, useState } from "react";
 
-// Create the context
+// Create UserContext
 export const UserContext = createContext();
 
-// Create the provider component
+// Create UserProvider component
 export function UserProvider({ children }) {
   const [user, setUser] = useState({
     name: "Alice",
@@ -17,4 +17,6 @@ export function UserProvider({ children }) {
     </UserContext.Provider>
   );
 }
+
+
 

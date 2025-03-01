@@ -1,8 +1,9 @@
+
 import { useContext } from "react";
-import { UserContext } from "../UserContext";  // Import UserContext
+import { UserContext } from "../UserContext";  // ✅ Import UserContext
 
 function UserProfile() {
-  const { user } = useContext(UserContext);  // Use the context
+  const { user } = useContext(UserContext);  // ✅ Consume context
 
   return (
     <div>

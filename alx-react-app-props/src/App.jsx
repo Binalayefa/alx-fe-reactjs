@@ -1,15 +1,14 @@
-import ProfilePage from "./ProfilePage";
-import { UserProvider } from "./UserContext"; // Ensure correct import
+import ProfilePage from "./components/ProfilePage";
 
 function App() {
   return (
-    <UserProvider>
+    <div>
+      <h1>App Component</h1>
       <ProfilePage />
-    </UserProvider>
+    </div>
   );
 }
 
 export default App;
-
 
 

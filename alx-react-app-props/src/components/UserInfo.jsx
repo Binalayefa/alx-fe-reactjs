@@ -1,7 +1,4 @@
-import UserDetails from "./UserDetails";
-
-function UserInfo() {
-  return <UserDetails />;
-}
-
-export default UserInfo;
+export default function UserInfo() {
+    return <h2>User Info Component</h2>;
+  }
+  

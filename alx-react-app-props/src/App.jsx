@@ -1,5 +1,4 @@
 import ProfilePage from "./components/ProfilePage";
-
 function App() {
   return (
     <div>
@@ -10,5 +9,3 @@ function App() {
 }
 
 export default App;
-
-

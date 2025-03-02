@@ -1,5 +1,8 @@
 import UserInfo from "./UserInfo"; // Make sure the path is correct
 
+
+
+
 function ProfilePage() {
   return (
     <div>

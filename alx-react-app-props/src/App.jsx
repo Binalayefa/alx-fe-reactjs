@@ -1,11 +1,15 @@
+import React from "react";
+import { UserProvider } from "./context/UserContext"; // Adjust path if needed
 import ProfilePage from "./components/ProfilePage";
+
 function App() {
   return (
-    <div>
-      <h1>App Component</h1>
+    <UserProvider>
       <ProfilePage />
-    </div>
+    </UserProvider>
   );
 }
 
 export default App;
+
+

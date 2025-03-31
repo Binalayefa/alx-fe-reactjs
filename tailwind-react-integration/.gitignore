@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -6,12 +7,15 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+# Dependencies
 node_modules
 dist
 dist-ssr
 *.local
+
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -20,8 +24,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-A p p l i c a t i o n   D a t a / 
-C o o k i e s / L o c a l   S e t t i n g s / 
-n o d e _ m o d u l e s / 
- 
- 
+
+# Unnecessary system files
+Application Data/
+Cookies/
+Local Settings/
+
+

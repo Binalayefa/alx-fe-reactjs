@@ -1,0 +1,4 @@
+/* Import Tailwind CSS layers */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

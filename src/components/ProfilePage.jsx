@@ -1,4 +1,3 @@
-
 import UserProfile from "./UserProfile";  // ✅ Import UserProfile
 
 function ProfilePage() {
